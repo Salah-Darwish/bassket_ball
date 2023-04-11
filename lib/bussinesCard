@@ -1,0 +1,206 @@
+// import 'package:flutter/cupertino.dart';
+// import 'package:flutter/material.dart';
+
+// void main() {
+//   runApp(newapp());
+// }
+
+// class newapp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Scaffold(
+//         backgroundColor: Color(0xff2b475e),
+//         body: Column(
+//           mainAxisAlignment: MainAxisAlignment.center,
+//           children: [
+//             CircleAvatar(
+//               radius: 112,
+//               backgroundColor: Colors.white,
+//               child: CircleAvatar(
+//                 radius: 110,
+//                 backgroundImage: AssetImage('images/tharwat.png'),
+//               ),
+//             ),
+//             Text(
+//               'Salah Darwish',
+//               style: TextStyle(
+//                 color: Colors.white,
+//                 fontSize: 32,
+//                 fontFamily: 'pacifico',
+//               ),
+//             ),
+//             Text(
+//               'FLUTTER DEVELOPER',
+//               style: TextStyle(
+//                 color: Color.fromARGB(255, 72, 89, 103),
+//                 fontSize: 25,
+//                 fontWeight: FontWeight.bold,
+//               ),
+//             ),
+//             Divider(
+//               color: Color.fromARGB(255, 72, 89, 103),
+//               thickness: 1,
+//               indent: 60,
+//               endIndent: 60,
+//               height: 10,
+//             ),
+//             Padding(
+//               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
+//               child: Container(
+//                 decoration: BoxDecoration(
+//                   color: Colors.white,
+//                   borderRadius: BorderRadius.circular(16),
+//                 ),
+//                 height: 65,
+//                 child: Row(
+//                   children: [
+//                     Padding(
+//                       padding: EdgeInsets.only(left: 16),
+//                       child: Icon(
+//                         Icons.phone,
+//                         color: Color(0xff2b475e),
+//                       ),
+//                     ),
+//                     Padding(
+//                       padding: EdgeInsets.only(left: 22),
+//                       child: Text(
+//                         "(+20) 1003243891 ",
+//                         style: TextStyle(
+//                           color: Color(0xff2b475e),
+//                           fontSize: 20,
+//                         ),
+//                       ),
+//                     ),
+//                   ],
+//                 ),
+//               ),
+//             ),
+//             Padding(
+//               padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+//               child: Container(
+//                 decoration: BoxDecoration(
+//                   color: Colors.white,
+//                   borderRadius: BorderRadius.circular(16),
+//                 ),
+//                 height: 65,
+//                 child: Row(
+//                   children: [
+//                     Padding(
+//                       padding: EdgeInsets.only(left: 16),
+//                       child: Icon(
+//                         Icons.mail,
+//                         color: Color(0xff2b475e),
+//                       ),
+//                     ),
+//                     Padding(
+//                       padding: EdgeInsets.only(left: 22),
+//                       child: Text(
+//                         "salahdaw686@gamil.com ",
+//                         style: TextStyle(
+//                           color: Color(0xff2b475e),
+//                           fontSize: 20,
+//                         ),
+//                       ),
+//                     ),
+//                   ],
+//                 ),
+//               ),
+//             ),
+//           ],
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+
+// another solve 
+
+
+// import 'package:flutter/cupertino.dart';
+// import 'package:flutter/material.dart';
+
+// void main() {
+//   runApp(BussinessCard());
+// }
+
+// class BussinessCard extends StatelessWidget {
+//   BussinessCard();
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Scaffold(
+//         backgroundColor: Color(0xff2b475e),
+//         body: Column(
+//           mainAxisAlignment: MainAxisAlignment.center,
+//           children: const [
+//             CircleAvatar(
+//               radius: 112,
+//               backgroundColor: Colors.white,
+//               child: CircleAvatar(
+//                 backgroundImage: AssetImage('images/tharwat.png'),
+//                 radius: 110,
+//               ),
+//             ),
+//             Text(
+//               "Salah Darwish",
+//               style: TextStyle(
+//                 color: Colors.blueGrey,
+//                 fontSize: 32,
+//                 fontFamily: 'pacifico',
+//               ),
+//             ),
+//             Text(
+//               "FLUTTER DEVELOPER",
+//               style: TextStyle(
+//                 color: Colors.blueGrey,
+//                 fontSize: 22,
+//               ),
+//             ),
+//             Divider(
+//               color: Colors.blueGrey,
+//               thickness: 1,
+//               indent: 60,
+//               endIndent: 60,
+//               height: 15,
+//             ),
+//             Card(
+//               margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+//               child: ListTile(
+//                 leading: Icon(
+//                   Icons.mail,
+//                   color: Color(0xff2b475e),
+//                 ),
+//                 title: Text(
+//                   "salahdaw686@gamil.com",
+//                   style: TextStyle(
+//                     color: Color(0xff2b475e),
+//                     fontSize: 22,
+//                   ),
+//                 ),
+//               ),
+//             ),
+//             Card(
+//               margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+//               child: ListTile(
+//                 leading: Icon(
+//                   Icons.phone,
+//                   color: Color(0xff2b475e),
+//                 ),
+//                 title: Text(
+//                   "(+20) 1003243891",
+//                   style: TextStyle(
+//                     color: Color(0xff2b475e),
+//                     fontSize: 22,
+//                   ),
+//                 ),
+//               ),
+//             ),
+//           ],
+//         ),
+//       ),
+//     );
+//   }
+// }
